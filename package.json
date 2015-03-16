@@ -1,0 +1,31 @@
+{
+  "name": "winston-acs",
+  "description": "An Appcelerator Node.ACS transport for winston",
+  "version": "0.1.0",
+  "author": "Fokke Zandbergen <fzandbergen@appcelerator.com>",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/appcelerator/winston-acs.git"
+  },
+  "keywords": [
+    "logging",
+    "sysadmin",
+    "tools",
+    "winston",
+    "appcelerator",
+    "appc",
+    "acs"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "winston": "0.5.x",
+    "vows": "0.6.x"
+  },
+  "main": "./lib/winston-acs",
+  "scripts": {
+    "test": "vows test/*-test.js --spec"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  }
+}
